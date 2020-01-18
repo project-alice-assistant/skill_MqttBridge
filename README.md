@@ -1,5 +1,7 @@
 # MqttBridge
 
+[![Continous Integration](https://gitlab.com/project-alice-assistant/skills/skill_MqttBridge/badges/master/pipeline.svg)](https://gitlab.com/project-alice-assistant/skills/skill_MqttBridge/pipelines/latest)
+
 ### Download
 
 ##### > WGET method
