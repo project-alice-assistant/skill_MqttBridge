@@ -25,9 +25,9 @@ class MqttBridge(AliceSkill):
 		try:
 			self.SkillManager.skillBroadcast(method=eventName, **payload)
 			argumentLog = ', '.join([f'{name}={value}' for name, value in payload.items()])
-			self.logInfo(f'broadcasting {eventName} with the arguments: {argumentLog}')
+			self.log.info(f'broadcasting {eventName} with the arguments: {argumentLog}')
 		except TypeError:
-			self.logError(f'broadcasting {eventName} failed: The payload {payload} is not supported')
+			self.log.error(f'broadcasting {eventName} failed: The payload {payload} is not supported')
 
 
 	@MqttHandler('projectalice/dialog/say')
@@ -37,6 +37,6 @@ class MqttBridge(AliceSkill):
 		try:
 			self.say(**payload)
 		except TypeError:
-			self.logError(f'incoming message say was ignored: The payload {payload} is not supported')
+			self.log.error(f'incoming message say was ignored: The payload {payload} is not supported')
 
 

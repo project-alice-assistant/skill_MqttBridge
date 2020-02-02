@@ -1,10 +1,10 @@
 {
 	"name": "MqttBridge",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"author": "maxbachmann",
 	"maintainers": [],
 	"desc": "bridge events between alice and mqtt",
-	"aliceMinVersion": "1.0.0-a4",
+	"aliceMinVersion": "1.0.0-a5",
 	"systemRequirements": [],
 	"pipRequirements": [],
 	"conditions": {
