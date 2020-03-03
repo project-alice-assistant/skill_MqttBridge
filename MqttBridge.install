@@ -2,7 +2,7 @@
 	"name": "MqttBridge",
 	"version": "0.0.5",
 	"icon": "fab fa-battle-net",
-	"category": "undefined",
+	"category": "automation",
 	"author": "maxbachmann",
 	"maintainers": [],
 	"desc": "bridge events between alice and mqtt",
