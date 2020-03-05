@@ -2,13 +2,6 @@
 
 [![Continous Integration](https://gitlab.com/project-alice-assistant/skills/skill_MqttBridge/badges/master/pipeline.svg)](https://gitlab.com/project-alice-assistant/skills/skill_MqttBridge/pipelines/latest)
 
-### Download
-
-##### > WGET method
-```bash
-wget http://skills.projectalice.ch/MqttBridge -O ~/ProjectAlice/system/skillInstallTickets/mqtt.install
-```
-
 ### Description
 bridge events between alice and mqtt.
 All events that are shared with skills will create the following MQTT Message:
