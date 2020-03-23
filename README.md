@@ -2,7 +2,6 @@
 
 [![Continous Integration](https://gitlab.com/project-alice-assistant/skills/skill_MqttBridge/badges/master/pipeline.svg)](https://gitlab.com/project-alice-assistant/skills/skill_MqttBridge/pipelines/latest)
 
-### Description
 bridge events between alice and mqtt.
 All events that are shared with skills will create the following MQTT Message:
 ```
@@ -16,7 +15,6 @@ the event arguments are a string converted dict, with the structure:
 }'
 ```
 
-- Version: 0.0.5
 - Author: maxbachmann
 - Maintainers: N/A
 - Alice minimum Version: 1.0.0-a5
