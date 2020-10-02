@@ -1,14 +1,13 @@
 {
-	"name": "MqttBridge",
-	"version": "0.0.5",
-	"icon": "fab fa-battle-net",
-	"category": "automation",
-	"author": "maxbachmann",
-	"maintainers": [],
-	"desc": "bridge events between alice and mqtt",
-	"aliceMinVersion": "1.0.0-a5",
-	"systemRequirements": [],
-	"pipRequirements": [],
-	"conditions": {
-	}
+    "name": "MqttBridge",
+    "version": "0.0.6",
+    "icon": "fab fa-battle-net",
+    "category": "automation",
+    "author": "maxbachmann",
+    "maintainers": [],
+    "desc": "bridge events between alice and mqtt",
+    "aliceMinVersion": "1.0.0-a5",
+    "systemRequirements": [],
+    "pipRequirements": [],
+    "conditions": {}
 }
