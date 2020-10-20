@@ -1,6 +1,6 @@
 {
     "name": "MqttBridge",
-    "version": "0.0.9",
+    "version": "0.0.10",
     "icon": "fab fa-battle-net",
     "category": "automation",
     "author": "maxbachmann",
