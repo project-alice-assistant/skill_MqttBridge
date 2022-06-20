@@ -1,7 +1,7 @@
 {
     "name": "MqttBridge",
-    "version": "0.0.12",
-    "icon": "fab fa-battle-net",
+    "version": "0.0.13",
+    "icon": "fas fa-user-alien",
     "category": "automation",
     "author": "maxbachmann",
     "maintainers": [],
