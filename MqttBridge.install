@@ -1,6 +1,6 @@
 {
     "name": "MqttBridge",
-    "version": "0.0.13",
+    "version": "0.0.14",
     "icon": "fas fa-user-alien",
     "category": "automation",
     "author": "maxbachmann",
